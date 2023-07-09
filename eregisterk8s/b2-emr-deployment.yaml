@@ -34,4 +34,4 @@ spec:
           - containerPort: 8050
         volumeMounts:
         - name: emr-storage
-          mountPath: /development_emr/
+          mountPath: /development/
