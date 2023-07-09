@@ -19,14 +19,14 @@ spec:
           service:
             name: emr-cluster-ip-service
             port: 
-              number: 443
+             number: 443
         path: /
         pathType: Prefix
       
-      - backend:
-          service:
-            name: erp-cluster-ip-service
-            port: 
-              number: 8069
-        path: /odoo
-        pathType: Prefix
+        #      - backend:
+        #          service:
+        #            name: erp-cluster-ip-service
+        #            port: 
+        #              number: 8069
+        #        path: /odoo
+        #        pathType: Prefix
